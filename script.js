@@ -70,3 +70,67 @@
 //   console.log("equal");
 // }
 // var someVar;
+
+//Objects and arrays of objects:
+//arrays
+// var planets = [
+//   "earth",
+//   "mars",
+//   ["sander", "heshanm", "lisa"],
+//   ["bmw", "volvo"],
+// ];
+// console.log(planets[1]); //mars
+// console.log(planets[2][0]); //sander
+// console.log(planets[3][1]); //volvo
+
+// var mobile = {
+//   name: "iphone 11",
+//   color: "green",
+//   age: 2,
+//   storage: 64,
+// };
+// console.log(mobile);
+// console.log(mobile.name);
+// console.log(mobile.age);
+// // alert(mobile.name);
+
+//Objects
+// var mobilePhones = [
+//   {
+//     name: "iphone 11",
+//     color: "green",
+//     storage: 64,
+//   },
+//   {
+//     name: "samsung 3",
+//     color: "blue",
+//     storage: 128,
+//   },
+//   {
+//     name: "nokia 3301",
+//     color: "red",
+//     storage: 16,
+//   },
+//   {
+//     name: "motorola razor flip",
+//     color: "black",
+//     storage: 256,
+//   },
+// ];
+// console.log(mobilePhones);
+
+// for (var i = 0; i < mobilePhones.length; i++) {
+//   console.log(mobilePhones[1]);
+// }
+
+// lesson task 3
+// var people = [
+//   {
+//     name: "sander",
+//     age: 27,
+//   },
+// ];
+// for (var i = 0; i < people.length; i++) {
+//   console.log(typeof people);
+//   console.log(typeof people[0]);
+// }

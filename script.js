@@ -131,6 +131,25 @@
 //   },
 // ];
 // for (var i = 0; i < people.length; i++) {
-//   console.log(typeof people);
-//   console.log(typeof people[0]);
+//   console.log(people[i].age);
+//   console.log(people[i].name);
 // }
+
+//MA
+function boolean_test(val) {
+  if (typeof val == "boolean") {
+    console.log(val);
+  } else {
+    console.log("Please pass a boolean value in");
+  }
+}
+
+boolean_test("morendin");
+
+function myTest() {
+  const loc = "foo";
+  console.log(loc);
+}
+myTest();
+
+myTest();

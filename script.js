@@ -136,20 +136,79 @@
 // }
 
 //MA
-function boolean_test(val) {
-  if (typeof val == "boolean") {
-    console.log(val);
-  } else {
-    console.log("Please pass a boolean value in");
-  }
+// function boolean_test(val) {
+//   if (typeof val == "boolean") {
+//     console.log(val);
+//   } else {
+//     console.log("Please pass a boolean value in");
+//   }
+// }
+
+// boolean_test("morendin");
+
+// function myTest() {
+//   const loc = "foo";
+//   console.log(loc);
+// }
+// myTest();
+
+// myTest();
+
+//functions:
+// function logWord() {
+//   console.log("Hello world");
+// }
+// logWord(); //"log hello world"
+
+// var name = "Sander";
+// console.log(name); //"log Sander"
+
+// logWord(); //"log hello world"
+
+// logWord(); //"log hello world"
+
+// function logWord(name, age) {
+//   console.log("my name is " + name + " and my age is: " + age);
+// }
+
+// logWord("Sander", 27);
+
+// function someName(name) {
+//   console.log(name);
+// }
+
+// someName("Sander");
+
+// function printLikeCounter(likeCounter) {
+//   console.log(likeCounter + " Likes");
+// }
+
+// printLikeCounter(100);
+
+// printLikeCounter(39);
+
+// printLikeCounter(40);
+
+//return:
+// function getNumberOfLikes(numberOfLikes) {
+//   return numberOfLikes + " likes";
+// }
+
+// var totalNumberOfLikes = getNumberOfLikes(40);
+// console.log(totalNumberOfLikes);
+
+function getSum(num1, num2) {
+  console.log(num1 + num2);
+}
+getSum(12, 13);
+
+function getMultiply(num1, num2) {
+  console.log(num1 * num2);
+}
+getMultiply(11, 12);
+
+function getName(firstName, secondName) {
+  console.log(firstName + " " + secondName);
 }
 
-boolean_test("morendin");
-
-function myTest() {
-  const loc = "foo";
-  console.log(loc);
-}
-myTest();
-
-myTest();
+getName("Sander", "Smedbøl");
